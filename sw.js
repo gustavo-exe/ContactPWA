@@ -6,3 +6,8 @@ self.addEventListener('install', e =>{
 self.addEventListener('activate', e=>{
     console.log('sw is activate')
 })
+
+//Fecth
+self.addEventListener('fetch', e=>{
+    console.log('sw fetch event',e)
+})
