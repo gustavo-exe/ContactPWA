@@ -29,6 +29,40 @@
         <li><a href="./pages/Favoritos.html">Favoritos</a></li>
         <li><a href="./pages/AcercaDe.html">Acerca De</a></li>
     </ul>
+    <div class="container">
+        <ul class="contacts collection with-header">
+            <li class="collection-header">
+                <h4>Contactos</h4>
+            </li>
+        </ul>
+    </div> 
+
+    <!-- Modal Trigger -->
+    <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
+
+    <!-- Modal Structure -->
+    <div id="add_contact_modal" class="modal add-contact">
+        <div class="modal-content">
+            <h4>Nuevo contacto</h4>
+            <form action="">
+                <input type="text" name="name" placeholder="Nombre" ></input>
+                <input type="text" name="telefono" placeholder="Numero" ></input>
+                <button class="btn">Agregar</button>
+                <p class="error"></p>
+            </form>
+        </div>
+    </div>
+    <div id="adit_contact_modal" class="modal edit-contact">
+        <div class="modal-content">
+            <h4>Editar contacto</h4>
+            <form action="">
+                <input type="text" name="name" placeholder="Nombre" ></input>
+                <input type="text" name="telefono" placeholder="Numero" ></input>
+                <button class="btn">Actualizar</button>
+                <p class="error"></p>
+            </form>
+        </div>
+    </div>
 
     <script src="./js/ui.js"></script>
 </body>
